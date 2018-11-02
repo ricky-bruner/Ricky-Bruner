@@ -475,6 +475,14 @@ img{
 	display: none;
 }
 
+.logo h3 {
+	padding-top: .3em;
+	color: #07ff77;
+}
+
+.typed-begin {
+	color: white;
+}
 
 
 
@@ -609,6 +617,10 @@ img{
 /* ===================================
     07. Resume
 ====================================== */
+.resume-area {
+
+}
+
 .resumes li {
 	border-left: 5px solid #07ff77;
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
@@ -616,6 +628,7 @@ img{
 	padding: 20px;
 	overflow: hidden;
 	position: relative;
+
 }
 .resumes li:last-child {
 	margin-bottom: 0;
@@ -624,13 +637,17 @@ img{
 	position: absolute;
 	
 	font-family: "FontAwesome";
-	left: -20px;
+	left: -15px;
 	bottom: -30%;
 	font-size: 100px;
 	color: #f7f7f7;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
 	z-index: -1
+}
+
+.resumes .NSS:after {
+	content: url(img/nss-logo.png);
 }
 
 .resumes .GM:after {
@@ -641,13 +658,17 @@ img{
 	content: url(img/verizon-wireless.png);
 }
 
+.resumes .ABEC:after {
+	content: url(img/abec-logo.png);
+}
+
 .resumes .Gamestop:after {
 	content: url(img/gs_logo.png);
 }
 
 .resumes li:hover:after {
-	left: -10px;
-	bottom: -25%;
+	left: -5px;
+	bottom: -20%;
 }
 .resumes li:before,
 .con-info li:before {
@@ -685,6 +706,12 @@ img{
 /* ===================================
     08. Portfolio
 ====================================== */
+.project-links {
+	display: flex;
+	justify-content: space-around;
+	font-size: 1.3em;
+	margin-bottom: 1em;
+}
 .portfolio-area {
 	overflow: hidden;
 	background: #f8f8f8;
@@ -1118,7 +1145,7 @@ img{
 	width: 40px;
 	height: 40px;
 	text-align: center;
-	font-size: 14px;
+	font-size: 20px;
 	margin-top: -20px;
 	border: 1px solid;
 	border-color: #07ff77;
