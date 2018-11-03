@@ -30,7 +30,7 @@
         var anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $(anchor.attr('href')).offset().top - 50
-        }, 1000);
+        }, 600);
         $(".navbar-collapse").collapse("hide");
         e.preventDefault();
     });
@@ -78,7 +78,32 @@
 
 
   	
-    //======= ISOTOP FILTERING JS  ========//
+    //======= ISOTOP FILTERING JS/Technology  ========//
+    $(window).on('load',function() { 
+	    var grid_container = $('.technology-container'),
+	    	grid_item = $('.new-grid-item');
+	    	
+
+	     grid_container.imagesLoaded(function () {
+	        grid_container.isotope({
+	            itemSelector: '.new-grid-item',
+	       		layoutMode: 'fitRows'
+	        });
+	    });
+
+	    $('.technology-filter li').on('click', function (e) {
+			$('.technology-filter li.active').removeClass('active');
+		    $(this).addClass('active');
+		    var selector = $(this).attr('data-filter');
+		    grid_container.isotope({
+		        filter: selector
+		    });
+		    return false;
+		    e.preventDefault();
+		});
+	});
+
+    //======= ISOTOP FILTERING JS/Portfolio  ========//
     $(window).on('load',function() { 
 	    var grid_container = $('.portfolio-container'),
 	    	grid_item = $('.grid-item');

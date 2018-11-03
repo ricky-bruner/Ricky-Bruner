@@ -484,7 +484,12 @@ img{
 	color: white;
 }
 
-
+.welcome {
+	color: #07ff77;
+	text-transform: uppercase;
+	font-size: 4rem;
+	margin: 1em auto;
+}
 
 /* ===================================
     05. About
@@ -530,9 +535,44 @@ img{
 
 
 
+/* ===================================
+	06. Technology
+====================================== */
+.tech-area {
+	overflow: hidden;
+	background: linear-gradient(#dfdfdf, white, white, white, #dfdfdf);
+	min-height: 550px;
+
+}
+
+.tech-icons {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.icon-card {
+	margin: .5em;
+}
+
+.icon-card img {
+	display: block;
+	width: 64px;
+	margin: 0 auto;
+}
+
+.icon-card p {
+	text-align: center;
+	word-wrap: break-word;
+}
+
+.tiltjs {
+	box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.4);
+	transform: rotate(-2deg);
+}
 
 /* ===================================
-    06. Service
+    07. Service
 ====================================== */
 .services-area {
 	background: #f8f8f8;
@@ -714,17 +754,19 @@ img{
 }
 .portfolio-area {
 	overflow: hidden;
-	background: #f8f8f8;
+	background: linear-gradient(#dfdfdf, white, white, white, #dfdfdf);
+	/* background: #f8f8f8; */
 }
 .grid-item {
     margin-bottom: 30px;
     position: relative;
     float: none;
 }
-.portfolio-filter {
+.portfolio-filter, .technology-filter {
 	margin-bottom: 20px;
 }
-.portfolio-filter li {
+.portfolio-filter li, 
+.technology-filter li {
 	display: inline-block;
 	padding: 5px 10px;
 	margin-bottom: 10px;
@@ -736,7 +778,8 @@ img{
 	transition: all 0.5s;
 	cursor: pointer;
 }
-.portfolio-filter li.active {
+.portfolio-filter li.active,
+.technology-filter li.active {
 	background: #07ff77;
 	color: #fff;
 	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.55);
@@ -809,7 +852,7 @@ img{
 	transition: all 0.7s;
 }
 .work-popup {
-	max-width: 550px;
+	max-width: 650px;
 	background: #fff;
 	position: relative!important;
 	margin: 30px auto;
