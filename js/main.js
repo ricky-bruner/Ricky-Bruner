@@ -79,6 +79,32 @@
 
 
   	
+    //======= ISOTOP FILTERING JS/About Me  ========//
+    $(window).on('load',function() { 
+	    var grid_container = $('.about-container'),
+	    	grid_item = $('.about-grid-item');
+	    	
+
+	     grid_container.imagesLoaded(function () {
+	        grid_container.isotope({
+	            itemSelector: '.about-grid-item',
+				   layoutMode: 'fitRows',
+				   filter: '.about-career'
+	        });
+	    });
+
+	    $('.aboutme-filter li').on('click', function (e) {
+			$('.aboutme-filter li.active').removeClass('active');
+		    $(this).addClass('active');
+		    var selector = $(this).attr('data-filter');
+		    grid_container.isotope({
+		        filter: selector
+		    });
+		    return false;
+		    e.preventDefault();
+		});
+	});
+  	
     //======= ISOTOP FILTERING JS/Technology  ========//
     $(window).on('load',function() { 
 	    var grid_container = $('.technology-container'),

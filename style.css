@@ -550,6 +550,14 @@ code {
 	color: gold;
 }
 
+.about-text p {
+	font-size: 1em;
+	line-height: 1.2em;
+	letter-spacing: 0.03em;
+	margin-bottom: 1em;
+	color: #666;
+}
+
 
 .progress-area .single-progress-item:last-child {
 	margin-bottom: 0;
@@ -590,7 +598,28 @@ code {
 	border-radius: 50%;
 }
 
+.resume-btn {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
 
+.btn {
+    padding: 15px 32px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: all 0.5s;
+    letter-spacing: 0.6px;
+    color: #fff;
+    box-shadow: none !important;
+    text-transform: uppercase;
+    outline: none !important;
+}
+
+.btn_custom {
+    border: 1px solid #07ff77;
+    background-color: #07ff77;
+}
 
 /* ===================================
 	06. Technology
@@ -819,11 +848,14 @@ code {
     position: relative;
     float: none;
 }
-.portfolio-filter, .technology-filter {
+.portfolio-filter, 
+.technology-filter,
+.aboutme-filter {
 	margin-bottom: 20px;
 }
 .portfolio-filter li, 
-.technology-filter li {
+.technology-filter li,
+.aboutme-filter li {
 	display: inline-block;
 	padding: 5px 10px;
 	margin-bottom: 10px;
@@ -836,7 +868,8 @@ code {
 	cursor: pointer;
 }
 .portfolio-filter li.active,
-.technology-filter li.active {
+.technology-filter li.active,
+.aboutme-filter li.active {
 	background: #07ff77;
 	color: #fff;
 	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.55);
@@ -1281,4 +1314,22 @@ code {
 }
 .footer-area p {
 	margin-bottom: 0;
+}
+
+/* ===================================
+	13. Media Query
+====================================== */
+
+@media screen and (max-width: 740px) and (min-width: 200px) {
+	.icon-card img {
+		display: block;
+		width: 32px;
+		margin: 0 auto;
+	}
+
+	.icon-card p {
+		text-align: center;
+		word-wrap: break-word;
+		font-size: .7em;
+	}
 }
