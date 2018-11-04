@@ -3,6 +3,7 @@
 	Version: 2.0
 	Author: BootEx
  ---------------------------------- */
+
 (function ($) {
     "use strict";
 
@@ -52,7 +53,7 @@
         stringsElement: $('#typed-strings'),
         typeSpeed: 20,
         backDelay: 2500,
-        loop: false,
+        loop: true,
         cursorChar:'',
         contentType: 'html',
 	});
@@ -130,43 +131,43 @@
 	
 
 
-	// //======= Contact Form ========//
-	// $('#contact-form').on('submit', function(e) {
-	// 	var form = $(this);
-	// 	var formdata = $(this).serialize();
-	// 	var chack = $('#form-chack');
+	//======= Contact Form ========//
+	$('#contact-form').on('submit', function(e) {
+		var form = $(this);
+		var formdata = $(this).serialize();
+		var chack = $('#form-chack');
 
-	// 	function reset_form(){
-	// 	 	$("#name").val('');
-	// 		$("#email").val('');
-	// 		$("#massage").val('');
-	// 	} 
+		function reset_form(){
+		 	$("#name").val('');
+			$("#email").val('');
+			$("#massage").val('');
+		} 
 
-	// 	$.ajax({
-	// 		url:  $(form).attr('action'),
-	// 		type: 'POST',
-	// 		data: formdata,
-	// 		success : function(text){
-	//             if (text == "success"){
-	//             	$('#form-chack').fadeIn(400);
-	//             	reset_form();
-	//                 chack.text("Your message has been sent :)");
-	//                 chack.removeClass('error');
-	// 				chack.addClass('send');
-	// 				$('#form-chack').fadeOut(8000);
+		$.ajax({
+			url:  $(form).attr('action'),
+			type: 'POST',
+			data: formdata,
+			success : function(text){
+	            if (text == "success"){
+	            	$('#form-chack').fadeIn(400);
+	            	reset_form();
+	                chack.text("Your message has been sent :)");
+	                chack.removeClass('error');
+					chack.addClass('send');
+					$('#form-chack').fadeOut(8000);
 
-	//             } else {
-	//             	$('#form-chack').fadeIn(400);
-	//             	reset_form();
-	//                 chack.text("Oops! something wrong.");
-	// 				chack.removeClass('send');
-	// 				chack.addClass('error');
-	// 				$('#form-chack').fadeOut(8000);
-	//             }
-	//         }
-	// 	});
-	// 	e.preventDefault();
-	// });
+	            } else {
+	            	$('#form-chack').fadeIn(400);
+	            	reset_form();
+	                chack.text("Oops! something wrong.");
+					chack.removeClass('send');
+					chack.addClass('error');
+					$('#form-chack').fadeOut(8000);
+	            }
+	        }
+		});
+		e.preventDefault();
+	});
 
 
 
