@@ -545,6 +545,11 @@ img{
 
 }
 
+.about-img {
+	display: flex;
+	justify-content: flex-end;
+}
+
 code {
 	background: rgb(33, 33, 33);
 	font-family: monospace;
@@ -1363,6 +1368,13 @@ code {
 		content: "";
 	}
 }
+
+@media only screen and (max-width: 992px) {
+	.about-img {
+		justify-content: center;
+	}
+}
+
 @media only screen and (max-width: 767px) {
 	.main-menu ul li a:hover, 
 	.main-menu ul li a:focus, 
