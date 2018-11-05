@@ -1230,6 +1230,11 @@ code {
 .con-info li p {
 	margin-bottom: 0;
 }
+
+#con-email:hover {
+	color: #265778;
+}
+
 .contact-section {
 	background: #f7f7f7;
 }
