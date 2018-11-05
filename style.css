@@ -541,13 +541,18 @@ img{
 }
 
 .typed-section {
-	min-height: 10em;
+	min-height: 13.5em;
 
 }
 
 .about-img {
 	display: flex;
 	justify-content: flex-end;
+}
+
+.about-img img {
+	border-radius: 5px;
+	box-shadow: 0 8px 6px -6px black;
 }
 
 code {
