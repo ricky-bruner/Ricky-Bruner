@@ -752,9 +752,9 @@ code {
 
 .resumes .Verizon:after {
 	content: "\f10b";
-	font-size: 150px;
+	font-size: 140px;
 	left: 10px;
-	bottom: -25%;
+	bottom: -30%;
 	color: rgb(193, 0, 0);
 }
 
@@ -775,7 +775,7 @@ code {
 
 .resumes .Verizon:hover::after {
 	left: 20px;
-	bottom: -10%;
+	bottom: -25%;
 }
 
 .resumes li:before,
@@ -1391,4 +1391,14 @@ code {
 		margin: 1em auto;
 	}
 
+	code {
+		font-size: .5em;
+	}
+
+}
+
+@media screen and (max-width: 320px) and (min-width: 0px) {
+	code {
+		font-size: .4em;
+	}
 }
