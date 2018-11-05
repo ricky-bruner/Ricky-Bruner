@@ -23,7 +23,31 @@ Table of contents
 	12. Footer
 
 */
+.stuff {
+	color: #354dfc;
+	color: #00ff73;
+	color: #00de64;
+	color: #354dfc;
+	color: #354dfc;
+	color: #0724ff;
+	color: #35e1fc;
+}
 
+.pantry-colors {
+	color: #FF9058;
+	color: #44C499;
+	color: #C8040D;
+	color: #096708;
+	color: #EDB1B9;
+}
+
+.more-colors {
+	color: #FE6B40;
+	color: #222E50;
+	color: #1A2730;
+	color: #265778;
+	color: #94FF00;
+}
 
 /* ===================================
    01. Main Styles
@@ -62,7 +86,7 @@ h6 {
 h1 {
 	color: #333;
 	letter-spacing: 0.03em;
-	font-size: 65px;
+	font-size: 3em;
 }
 h2 {
 	font-size: 30px;
@@ -99,13 +123,13 @@ span {
 	font-weight: 700;
 }
 a {
-	color: #07ff77
+	color: #0724ff; 
 }
 a:hover,
 a:focus {
 	text-decoration: none;
 	outline: none;
-	color: #12d369;
+	color: #1212d3;
 }
 ul,
 ol {
@@ -147,7 +171,7 @@ img{
     top: 50%;
     margin-top: -20px;
     position: relative;
-    border: 6px solid #07ff77;
+    border: 6px solid #354dfc;
     animation: loader 2.3s infinite ease;
         -webkit-animation: loader 2.3s infinite ease;
 }
@@ -156,7 +180,7 @@ img{
     vertical-align: top;
     display: inline-block;
     width: 100%;
-    background-color: #07ff77;
+    background-color: #354dfc;
     animation: loader-inner 2.3s infinite ease-in;
         -webkit-animation: loader-inner 2.3s infinite ease-in;
 }
@@ -298,7 +322,7 @@ img{
 	height: 2px;
 	left: 0;
 	bottom: 0;
-	background: #07ff77;
+	background: #00ff73;
 }
 .site-btn {
 	display: inline-block;
@@ -315,7 +339,7 @@ img{
 	transition: all 0.5s;
 }
 .loadmore {
-	background: #07ff77;
+	background: #354dfc;
 	color: #fff;
 	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
@@ -405,7 +429,7 @@ img{
 	position: absolute;
 	height: 100%;
 	left: 0;
-	background: #07ff77;
+	background: #35e1fc;
 	width: 100%;
 	-webkit-transition: all 0.4s;
 	transition: all 0.4s;
@@ -469,7 +493,7 @@ img{
 	text-transform: uppercase;
 }
 .intro-div h1 b {
-	color: #07ff77
+	color: #35e1fc
 }
 #typed-strings{
 	display: none;
@@ -477,7 +501,7 @@ img{
 
 .logo h3 {
 	padding-top: .3em;
-	color: #07ff77;
+	color: #35e1fc;
 }
 
 .typed-begin {
@@ -485,7 +509,7 @@ img{
 }
 
 .welcome {
-	color: #07ff77;
+	color: #35e1fc;
 	text-transform: uppercase;
 	font-size: 4rem;
 	margin: 1em auto;
@@ -552,7 +576,7 @@ code {
 
 .about-text p {
 	font-size: 1em;
-	line-height: 1.2em;
+	line-height: 1.3em;
 	letter-spacing: 0.03em;
 	margin-bottom: 1em;
 	color: #666;
@@ -584,7 +608,7 @@ code {
 	height: 100%;
 	left: 0;
 	top: 0;
-	background: #07ff77;
+	background: #354dfc;
 }
 .bar-inner span {
 	position: absolute;
@@ -593,7 +617,7 @@ code {
 	width: 23px;
 	top: -8px;
 	right: 0;
-	border: 5px solid #07ff77;
+	border: 5px solid #354dfc;
 	box-shadow: 0 1px 10px #999;
 	border-radius: 50%;
 }
@@ -617,8 +641,22 @@ code {
 }
 
 .btn_custom {
-    border: 1px solid #07ff77;
-    background-color: #07ff77;
+    border: 1px solid #354dfc;
+    background-color: #354dfc;
+}
+
+.btn_custom:hover,
+.btn_custom:focus,
+.btn_custom:active,
+.btn_custom.active,
+.btn_custom.focus,
+.btn_custom:active,
+.btn_custom:focus,
+.btn_custom:hover,
+.open > .dropdown-toggle.btn_custom {
+    color: #f3f3f3;
+    background-color: #001ade;
+    border-color: #001ade;
 }
 
 /* ===================================
@@ -670,7 +708,7 @@ code {
 	width: 70px;
 	height: 70px;
 	margin: 0px auto 10px;
-	background: #07ff77;
+	background: #354dfc;
 	font-size: 30px;
 	border-radius: 50%;
 	color: #fff;
@@ -723,11 +761,11 @@ code {
 }
 .service:hover .service-icon {
 	background-color: #fff;
-	color: #07ff77;
+	color: #354dfc;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 .service:hover .service-icon:after {
-	border: 3px #07ff77;
+	border: 3px #354dfc;
 	border-style: dashed;
 }
 .service-icon i {
@@ -748,7 +786,7 @@ code {
 }
 
 .resumes li {
-	border-left: 5px solid #07ff77;
+	border-left: 5px solid #354dfc;
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 	margin-bottom: 35px;
 	padding: 20px;
@@ -761,40 +799,45 @@ code {
 }
 .resumes li:after {
 	position: absolute;
-	
 	font-family: "FontAwesome";
-	left: -15px;
-	bottom: -30%;
+	left: 5px;
+	bottom: -10%;
 	font-size: 100px;
-	color: #f7f7f7;
+	color: #d2d2d2;
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
-	z-index: -1
+	z-index: -1;
 }
 
 .resumes .NSS:after {
-	content: url(img/nss-logo.png);
+	content: "\f121";
+	color: black;
 }
 
 .resumes .GM:after {
-	content: url(img/GM_logo.png);
+	content: "\f1b9";
+	color: blue;
 }
 
 .resumes .Verizon:after {
-	content: url(img/verizon-wireless.png);
+	content: "\f10b";
+	font-size: 160px;
+	color: red;
 }
 
 .resumes .ABEC:after {
-	content: url(img/abec-logo.png);
+	content: "\f0e7";
+	color: goldenrod;
 }
 
 .resumes .Gamestop:after {
-	content: url(img/gs_logo.png);
+	content: "\f11b";
+	color: black;
 }
 
 .resumes li:hover:after {
-	left: -5px;
-	bottom: -20%;
+	left: 10px;
+	bottom: 0%;
 }
 .resumes li:before,
 .con-info li:before {
@@ -805,7 +848,7 @@ code {
 	right: 0;
 	top: 50%;
 	margin-top: -20px;
-	background: #07ff77;
+	background: #354dfc;
 }
 .resume-date {
 	margin-bottom: 15px;
@@ -817,7 +860,7 @@ code {
 }
 .resume-date h5 {
 	font-size: 13px;
-	color: #07ff77;
+	color: #354dfc;
 }
 .resumes li h2 {
 	font-size: 20px;
@@ -870,7 +913,7 @@ code {
 .portfolio-filter li.active,
 .technology-filter li.active,
 .aboutme-filter li.active {
-	background: #07ff77;
+	background: #354dfc;
 	color: #fff;
 	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.55);
 	box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.34);
@@ -918,7 +961,7 @@ code {
 .work-inner h5 {
 	position: absolute;
 	bottom: 10px;
-	background: #07ff77;
+	background: #354dfc;
 	padding: 5px 10px;
 	-webkit-transform: rotateX(110deg);
 	transform: rotateX(110deg);
@@ -971,7 +1014,7 @@ code {
     width: 50px;
     height: 50px;
     opacity: 1;
-    color: #07ff77;
+    color: #354dfc;
     box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -1033,7 +1076,7 @@ code {
 	color: #ededed
 }
 .review-single h3{
-	color: #07ff77;
+	color: #354dfc;
     margin-bottom: 5px;
     font-size: 27px;
 }
@@ -1085,7 +1128,7 @@ code {
 }
 .readmore {
 	position: absolute;
-	background: #07ff77;
+	background: #354dfc;
 	width: 40px;
 	height: 40px;
 	display: table;
@@ -1112,7 +1155,7 @@ code {
 	font-size: 20px;
 }
 .post-text h4 {
-	color: #07ff77;
+	color: #354dfc;
 }
 .post-text p {
 	margin-bottom: 0;
@@ -1148,7 +1191,7 @@ code {
 }
 .single-blog .entry-content blockquote {
     background: #ededed none repeat scroll 0 0;
-    border-left: 5px solid #07ff77;
+    border-left: 5px solid #354dfc;
     font-size: 14px;
     font-style: italic;
     margin: 20px 40px;
@@ -1181,8 +1224,8 @@ code {
 	top: 50%;
 	margin-top: -20px;
 	border: 1px solid;
-	border-color: #07ff77;
-	color: #07ff77;
+	border-color: #354dfc;
+	color: #354dfc;
 	border-radius: 50%;
 	background: #f8f8f8;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -1223,7 +1266,7 @@ code {
 	top: 0;
 	height: 100%;
 	width: 80px;
-	background: #07ff77;
+	background: #354dfc;
 	border: none;
 	font-size: 30px;
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -1236,7 +1279,7 @@ code {
 }
 #contact-form input:focus,
 #contact-form textarea:focus {
-	border-color: #07ff77;
+	border-color: #354dfc;
 	outline: none;
 }
 .contact-left {
@@ -1273,6 +1316,7 @@ code {
 	text-align: center;
 	margin-top: 50px;
 }
+
 .social-links a {
 	display: inline-table;
 	width: 40px;
@@ -1281,8 +1325,8 @@ code {
 	font-size: 20px;
 	margin-top: -20px;
 	border: 1px solid;
-	border-color: #07ff77;
-	color: #07ff77;
+	border-color: #354dfc;
+	color: #354dfc;
 	border-radius: 50%;
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 	margin-right: 10px;
@@ -1290,6 +1334,14 @@ code {
 	-webkit-transition: all 0.5s;
 	transition: all 0.5s;
 }
+
+.top-social a {
+	border-color: #35e1fc;
+	color: #35e1fc;
+	width: 50px;
+	height: 50px;
+} 
+
 .social-links a i {
 	vertical-align: middle;
 	display: table-cell;
@@ -1320,6 +1372,41 @@ code {
 	13. Media Query
 ====================================== */
 
+@media screen and (max-width: 995px) and (min-width: 200px) {
+	
+	/* .resumes li:after {
+		position: absolute;
+		font-family: "FontAwesome";
+		left: 0px;
+		top: 80px; 
+		font-size: 100px;
+		color: #f7f7f7;
+		-webkit-transition: all 0.5s;
+		transition: all 0.5s;
+		z-index: -1;
+	}
+	
+	.resumes .NSS:after {
+		content: "";
+	}
+	
+	.resumes .GM:after {
+		content: "";
+	}
+	
+	.resumes .Verizon:after {
+		content: "";
+	}
+	
+	.resumes .ABEC:after {
+		content: "";
+	}
+	
+	.resumes .Gamestop:after {
+		content: "";
+	} */
+}
+
 @media screen and (max-width: 740px) and (min-width: 200px) {
 	.icon-card img {
 		display: block;
@@ -1332,4 +1419,12 @@ code {
 		word-wrap: break-word;
 		font-size: .7em;
 	}
+
+	.welcome {
+		color: #354dfc;
+		text-transform: uppercase;
+		font-size: 2rem;
+		margin: 1em auto;
+	}
+
 }
