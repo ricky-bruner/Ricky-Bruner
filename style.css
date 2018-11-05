@@ -390,7 +390,7 @@ img{
 	top: 0;
 	/* background: url(img/overlay.png);
 	background-repeat: repeat; */
-	background-color: rgba(0, 0, 0, 0.72);
+	background-color: rgba(0, 0, 0, 0.4);
 }
 #particles,
 #video{
