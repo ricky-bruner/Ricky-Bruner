@@ -655,6 +655,10 @@ code {
 	margin-top: 3em;
 }
 
+.resume-section-btn {
+	margin: 0em auto 2em;
+}
+
 .btn {
     padding: 15px 32px;
     font-size: 14px;
@@ -672,6 +676,19 @@ code {
     background-color: #265778;
 }
 
+.resume-section-btn .btn_custom {
+	border: 1px solid #FE6B40;
+    background-color: #FE6B40;
+}
+.resume-section-btn .btn_custom:hover,
+.resume-section-btn .btn_custom:active,
+.resume-section-btn .btn_custom:focus,
+.resume-section-btn .btn_custom.focus,
+.resume-section-btn .btn_custom.active {
+	border: 1px solid rgb(196, 86, 52);
+    background-color: rgb(196, 86, 52);
+}
+
 .btn_custom:hover,
 .btn_custom:focus,
 .btn_custom:active,
@@ -685,6 +702,7 @@ code {
     background-color: #0016bd;
     border-color: #0016bd;
 }
+
 
 /* ===================================
 	06. Technology
