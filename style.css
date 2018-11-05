@@ -388,8 +388,6 @@ img{
 	height: 100%;
 	left: 0;
 	top: 0;
-	/* background: url(img/overlay.png);
-	background-repeat: repeat; */
 	background-color: rgba(0, 0, 0, 0.4);
 }
 #particles,
@@ -606,46 +604,6 @@ code {
 	letter-spacing: 0.03em;
 	margin-bottom: 1em;
 	color: #666;
-}
-
-
-.progress-area .single-progress-item:last-child {
-	margin-bottom: 0;
-}
-.single-progress-item {
-	margin-bottom: 25px;
-}
-.single-progress-item p {
-	letter-spacing: 0.09em;
-	text-transform: uppercase;
-	color: #282828;
-	font-size: 14px;
-	margin-bottom: 0;
-	font-weight: 700;
-}
-.progress-bar-style {
-	display: block;
-	height: 8px;
-	position: relative;
-	width: 100%;
-}
-.bar-inner {
-	position: absolute;
-	height: 100%;
-	left: 0;
-	top: 0;
-	background: #354dfc;
-}
-.bar-inner span {
-	position: absolute;
-	background: #fff;
-	height: 23px;
-	width: 23px;
-	top: -8px;
-	right: 0;
-	border: 5px solid #354dfc;
-	box-shadow: 0 1px 10px #999;
-	border-radius: 50%;
 }
 
 .resume-btn {
@@ -1104,95 +1062,6 @@ code {
 }
 .review-controller a:hover{
 	background: rgba(255, 255, 255, 0.25);
-}
-
-
-
-
-/* ===================================
-    10. Blog
-====================================== */
-.post-item {
-	box-shadow: 0 0 1px #d1d1d1, 0 0 15px rgba(0, 0, 0, 0.2);
-	margin-bottom: 30px;
-}
-.post-thumb {
-	position: relative;
-}
-.post-thumb img {
-	max-width: 100%;
-	min-width: 100%;
-}
-.readmore {
-	position: absolute;
-	background: #354dfc;
-	width: 40px;
-	height: 40px;
-	display: table;
-	text-align: center;
-	color: #fff;
-	bottom: -20px;
-	right: 15px;
-	border-radius: 40px;
-	-webkit-transition: all 0.5s;
-	transition: all 0.5s;
-}
-.readmore i {
-	display: table-cell;
-	vertical-align: middle;
-}
-.readmore:hover {
-	color: #fff;
-	background: #333;
-}
-.post-text {
-	padding: 15px;
-}
-.post-text h2 {
-	font-size: 20px;
-}
-.post-text h4 {
-	color: #354dfc;
-}
-.post-text p {
-	margin-bottom: 0;
-}
-
-
-
-.breadcamb-area{
-	height: 270px;
-	background: url(img/bg.jpg);
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	position: relative;
-}
-.breadcamb-area .container{
-	position: relative;
-	z-index: 3;
-	text-align: center;
-}
-.breadcamb-area h2{
-	color: #fff;
-    font-size: 40px;
-    letter-spacing: 3px;
-    padding-top: 124px;
-    text-align: center;
-    text-transform: uppercase;
-}
-.single-blog .post-information h2 {
-    margin: 30px 0 20px;
-    text-transform: uppercase;
-}
-.single-blog .entry-content blockquote {
-    background: #ededed none repeat scroll 0 0;
-    border-left: 5px solid #354dfc;
-    font-size: 14px;
-    font-style: italic;
-    margin: 20px 40px;
-    padding: 20px;
 }
 
 
