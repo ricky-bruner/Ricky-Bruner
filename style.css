@@ -821,7 +821,7 @@ code {
 
 .resumes .Verizon:after {
 	content: "\f10b";
-	font-size: 160px;
+	font-size: 150px;
 	color: red;
 }
 
@@ -1372,20 +1372,8 @@ code {
 	13. Media Query
 ====================================== */
 
-@media screen and (max-width: 995px) and (min-width: 200px) {
-	
-	/* .resumes li:after {
-		position: absolute;
-		font-family: "FontAwesome";
-		left: 0px;
-		top: 80px; 
-		font-size: 100px;
-		color: #f7f7f7;
-		-webkit-transition: all 0.5s;
-		transition: all 0.5s;
-		z-index: -1;
-	}
-	
+@media screen and (max-width: 1000px) and (min-width: 200px) {
+		
 	.resumes .NSS:after {
 		content: "";
 	}
@@ -1404,7 +1392,7 @@ code {
 	
 	.resumes .Gamestop:after {
 		content: "";
-	} */
+	}
 }
 
 @media screen and (max-width: 740px) and (min-width: 200px) {

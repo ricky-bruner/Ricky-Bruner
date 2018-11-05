@@ -166,7 +166,7 @@
 		function reset_form(){
 		 	$("#name").val('');
 			$("#email").val('');
-			$("#massage").val('');
+			$("#message").val('');
 		} 
 
 		$.ajax({
