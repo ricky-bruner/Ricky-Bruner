@@ -43,8 +43,8 @@
 
 
 	//======= PARALLAX BG ========//
-	$('.header-area').parallax("40%", 0.2);
-	$('.review-bg').parallax("10%", -0.04);
+	// $('.header-area').parallax("40%", 0.2);
+	// $('.review-bg').parallax("10%", -0.04);
 
 
 
@@ -59,20 +59,7 @@
 	});
 
 
-	//======= PROGRESS BAR  ========//
-	$('.progress-bar-style').each(function() {
-		var progress = $(this).data("progress");
-		var prog_width = progress+'%';
-		if (progress <= 100) {
-			$(this).append('<div class="bar-inner" style="width:'+prog_width+'"><span></span></div>');
-		}else{
-			$(this).append('<div class="bar-inner" style="width:100%"><span></span></div>');
-		}
-	});
-
-
-
-	//======= MAGNIDIC POPUP JS  ========//
+	//======= MAGNIFIC POPUP JS  ========//
 	$('.work-item').magnificPopup({
 		type:'inline'
     });
@@ -155,47 +142,6 @@
 		});
 	});
 	
-
-
-	//======= Contact Form ========//
-	$('#contact-form').on('submit', function(e) {
-		var form = $(this);
-		var formdata = $(this).serialize();
-		var chack = $('#form-chack');
-
-		function reset_form(){
-		 	$("#name").val('');
-			$("#email").val('');
-			$("#message").val('');
-		} 
-
-		$.ajax({
-			url:  $(form).attr('action'),
-			type: 'POST',
-			data: formdata,
-			success : function(text){
-	            if (text == "success"){
-	            	$('#form-chack').fadeIn(400);
-	            	reset_form();
-	                chack.text("Your message has been sent :)");
-	                chack.removeClass('error');
-					chack.addClass('send');
-					$('#form-chack').fadeOut(8000);
-
-	            } else {
-	            	$('#form-chack').fadeIn(400);
-	            	reset_form();
-	                chack.text("Oops! something wrong.");
-					chack.removeClass('send');
-					chack.addClass('error');
-					$('#form-chack').fadeOut(8000);
-	            }
-	        }
-		});
-		e.preventDefault();
-	});
-
-
 
 	
 })(jQuery); //end
