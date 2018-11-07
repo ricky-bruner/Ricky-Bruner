@@ -7,6 +7,9 @@
 (function ($) {
     "use strict";
 
+	//======= EASTER EGG =======//
+	console.log("✨ ⚡ ✨ Cheers fellow Dev Witch or Wizard! There's some 'extra' magic hidden on this page. Take a closer look at Gryffindor or Ravenclaw for some change in Decor! ✨ ⚡ ✨")
+
 	//======= SITE LOADER ========//
     $(window).on('load',function() { 
 	    $("#loaderInner").fadeOut(); 
@@ -112,6 +115,9 @@
 			$(".project-links").addClass("gryff-port-links")
 			$(".work-popup").removeClass("raven-port-close")
 			$(".work-popup").addClass("gryff-port-close")
+			console.log('✨ALOHAMORA✨')
+			console.log('There may be some more "Magic" to find, but you wont have to look far!')
+			console.log('You can also "return" if you so choose.')
 		}
 	})
 
@@ -160,6 +166,9 @@
 			$(".project-links").addClass("raven-port-links")
 			$(".work-popup").removeClass("gryff-port-close")
 			$(".work-popup").addClass("raven-port-close")
+			console.log("✨ALOHAMORA✨")
+			console.log('There may be some more "Magic" to find, but you wont have to look far!')
+			console.log('You can also "return" if you so choose.')
 		}
 	})
 
@@ -207,6 +216,8 @@
 		$(".project-links").removeClass("raven-port-links")
 		$(".work-popup").removeClass("gryff-port-close")
 		$(".work-popup").removeClass("raven-port-close")
+		console.log('✨FINITE INCANTATEM✨')
+		console.log('Farewell!')
 	})
 
   	
