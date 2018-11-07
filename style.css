@@ -1185,6 +1185,21 @@ code {
 	border-color: red;
 	color: red;
 }
+.gryff-port-links a {
+	color: darkred;
+}
+.gryff-port-links a:hover {
+	color: red;
+}
+
+.gryff-port-close .mfp-close {
+	color: goldenrod;
+	background: darkred;
+}
+.gryff-port-close .mfp-close:hover {
+	color: goldenrod;
+	background: darkred;
+}
 
 .gryff-links a:hover {
 	background: darkred;
@@ -1250,7 +1265,7 @@ code {
 	color: goldenrod;
 }
 
-.gryff-portfolio .grid-item .work-popup .work-popup-content .project-links a {
+.gryff-portfolio #work-id1 .work-popup-content .project-links a {
 	color: red;
 }
 
@@ -1273,6 +1288,22 @@ code {
 	background: darkblue;
 	color: silver;
 	border-color: dimgray;
+}
+
+.raven-port-links a {
+	color: darkblue;
+}
+.raven-port-links a:hover {
+	color: blue;
+}
+
+.raven-port-close .mfp-close {
+	color: silver;
+	background: darkblue;
+}
+.raven-port-close .mfp-close:hover {
+	color: silver;
+	background: darkblue;
 }
 
 .ravenclaw-section-title h2:after {
@@ -1373,6 +1404,20 @@ code {
 		background: #000;
 		color: #FE6B40;
 	}
+
+	.ravenclaw-select ul li a:hover,
+	.ravenclaw-select ul li a:focus,
+	.ravenclaw-select ul li.active a {
+		color: blue !important;
+	}
+
+	.gryffindor-select ul li a:hover,
+	.gryffindor-select ul li a:focus,
+	.gryffindor-select ul li.active a {
+		color: red !important;
+	}
+
+
 }
 
 @media screen and (max-width: 740px) and (min-width: 200px) {
@@ -1393,6 +1438,14 @@ code {
 		text-transform: uppercase;
 		font-size: 2rem;
 		margin: 1em auto;
+	}
+
+	.gryff-welcome {
+		color: red;
+	}
+
+	.raven-welcome {
+		color: blue;
 	}
 
 	code {

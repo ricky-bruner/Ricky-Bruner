@@ -64,7 +64,6 @@
 		type:'inline'
     });
 
-
 	// ====== COLOR THEME CHANGE ======//
 
 	// Gryffindor
@@ -109,7 +108,10 @@
 			$(".footer-area").removeClass("raven-footer")
 			$(".footer-area").addClass("gryff-footer")
 			$(".portfolio-container").addClass("gryff-portfolio")
-
+			$(".project-links").removeClass("raven-port-links")
+			$(".project-links").addClass("gryff-port-links")
+			$(".work-popup").removeClass("raven-port-close")
+			$(".work-popup").addClass("gryff-port-close")
 		}
 	})
 
@@ -154,6 +156,10 @@
 			$(".work-inner").addClass("raven-port-inner")
 			$(".footer-area").removeClass("gryff-footer")
 			$(".footer-area").addClass("raven-footer")
+			$(".project-links").removeClass("gryff-port-links")
+			$(".project-links").addClass("raven-port-links")
+			$(".work-popup").removeClass("gryff-port-close")
+			$(".work-popup").addClass("raven-port-close")
 		}
 	})
 
@@ -197,6 +203,10 @@
 		$(".work-inner").removeClass("raven-port-inner")
 		$(".footer-area").removeClass("gryff-footer")
 		$(".footer-area").removeClass("raven-footer")
+		$(".project-links").removeClass("gryff-port-links")
+		$(".project-links").removeClass("raven-port-links")
+		$(".work-popup").removeClass("gryff-port-close")
+		$(".work-popup").removeClass("raven-port-close")
 	})
 
   	
