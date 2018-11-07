@@ -106,6 +106,10 @@
 			$(".about-resume-btn div a").addClass("gryff-resume-btn")
 			$(".work-inner").removeClass("raven-port-inner")
 			$(".work-inner").addClass("gryff-port-inner")
+			$(".footer-area").removeClass("raven-footer")
+			$(".footer-area").addClass("gryff-footer")
+			$(".portfolio-container").addClass("gryff-portfolio")
+
 		}
 	})
 
@@ -148,6 +152,8 @@
 			$(".about-resume-btn div a").addClass("raven-resume-btn")
 			$(".work-inner").removeClass("gryff-port-inner")
 			$(".work-inner").addClass("raven-port-inner")
+			$(".footer-area").removeClass("gryff-footer")
+			$(".footer-area").addClass("raven-footer")
 		}
 	})
 
@@ -189,7 +195,8 @@
 		$(".about-resume-btn div a").removeClass("raven-resume-btn")
 		$(".work-inner").removeClass("gryff-port-inner")
 		$(".work-inner").removeClass("raven-port-inner")
-
+		$(".footer-area").removeClass("gryff-footer")
+		$(".footer-area").removeClass("raven-footer")
 	})
 
   	

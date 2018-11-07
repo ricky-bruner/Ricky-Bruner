@@ -1213,6 +1213,10 @@ code {
 	background: goldenrod;
 }
 
+.gryff-con li a {
+	color: darkred;
+}
+
 .gryff-resume li {
 	border-left: 5px solid red;
 }
@@ -1238,9 +1242,16 @@ code {
 	background: red;
 }
 
-.gryffindor-button-test {
-	background: red;
-	color: gold;
+.gryff-footer .container p a {
+	color: red;
+}
+
+.gryff-footer .container p a:hover {
+	color: goldenrod;
+}
+
+.gryff-portfolio .grid-item .work-popup .work-popup-content .project-links a {
+	color: red;
 }
 
 /* ====== RAVENCLAW ======= */
@@ -1285,6 +1296,10 @@ code {
 	background: silver;
 }
 
+.raven-con li a {
+	color: blue;
+}
+
 .raven-resume li {
 	border-left: 5px solid blue;
 }
@@ -1310,7 +1325,13 @@ code {
 	background: blue;
 }
 
+.raven-footer .container p a {
+	color: blue;
+}
 
+.raven-footer .container p a:hover {
+	color: silver;
+}
 
 /* ===================================
 	13. Media Query
