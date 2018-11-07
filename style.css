@@ -324,9 +324,11 @@ img{
 	bottom: 0;
 	background: #94FF00;
 }
+
 .about-section-title h2:after {
 	background: #94FF00;
 }
+
 .tech-section-title h2:after {
 	background: #FE6B40;
 }
@@ -335,10 +337,13 @@ img{
 	background: #FE6B40;
 }
 
+.portfolio-section-title h2:after {
+	background: #94FF00;
+}
+
 .contact-section-title h2:after {
 	background: #FE6B40;
 }
-
 
 .site-btn {
 	display: inline-block;
@@ -573,9 +578,17 @@ code {
 	text-shadow: goldenrod .5px .5px;
 }
 
+.gryffindor:hover {
+	cursor: pointer;
+}
+
 .ravenclaw {
 	color: rgb(0, 64, 255);
 	text-shadow: silver .5px .5px;
+}
+
+.ravenclaw:hover {
+	cursor: pointer;
 }
 
 .personality-16 {
@@ -976,93 +989,7 @@ code {
 
 
 
-/* ===================================
-    09. Review
-====================================== */
-.review-area{
-	position: relative;
-	min-height: 350px;
-	transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-}
-.review-bg{
-	background: url(img/review-bg.jpg);
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	left: 0;
-	top: 0;
-}
-.review-area::after{
-	position: absolute;
-	content: "";
-	width: 100%;
-	height: 100%;
-	left: 0;
-	top: 0;	
-	background: #000;
-	opacity: 0.8;
-	z-index: 2;
-}
-.review-icon{
-	text-align: center;
-	font-size: 50px;
-	color: #ddd;
-	position: relative;
-	z-index: 4;
-}
-.review-carousel{
-	z-index: 3;
-	position: relative;
-	padding-left: 0px;
-	padding-right: 0px;
-}
-.review-carousel .carousel-inner{
-	margin-right: 0;
-}
-.review-single{
-	text-align: center;
-}
-.review-single p{
-	color: #ededed
-}
-.review-single h3{
-	color: #354dfc;
-    margin-bottom: 5px;
-    font-size: 27px;
-}
-.review-single h4{
-	color: #fff;
-	text-transform: none;
-}
-.review-controller{
-	display: block;
-	text-align: center;
-	clear: both;
-	margin-top: 20px;
-}
-.review-controller a{
-	text-align: center;
-	display: inline-table;
-	text-align: center;
-	width: 40px;
-	height: 40px;
-	font-size: 19px;
-	background: rgba(255, 255, 255, 0.1);
-	transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-}
-.review-controller a i{
-	display: table-cell;
-	vertical-align: middle;
-}
-.review-controller a:hover{
-	background: rgba(255, 255, 255, 0.25);
-}
+
 
 
 /* ===================================
@@ -1238,6 +1165,152 @@ code {
 .footer-area p {
 	margin-bottom: 0;
 }
+
+
+/* ===================================
+	Theme Transform
+====================================== */
+
+/* ====== GRYFFINDOR ======= */
+.gryffindor-select ul li a::after,
+.gryffindor-select ul li a::before {
+	background: red !important;
+}
+
+.gryff-logo h3 {
+	color: goldenrod;
+}
+
+.gryff-links a {
+	border-color: red;
+	color: red;
+}
+
+.gryff-links a:hover {
+	background: darkred;
+	color: goldenrod;
+	border-color: darkgoldenrod;
+}
+
+.gryffindor-section-title h2:after {
+	background: red;
+}
+
+.gryff-filter li.active {
+	background: red;
+}
+
+.gryff-welcome {
+	color: red;
+}
+
+.gryff-con li i {
+	color: red;
+	border-color: red;
+}
+
+.gryff-con li:before {
+	background: goldenrod;
+}
+
+.gryff-resume li {
+	border-left: 5px solid red;
+}
+
+.gryff-resume li:before {
+	background: goldenrod;
+}
+
+.gryff-resume-btn {
+	background-color: darkred !important;
+	color: goldenrod;
+	border: 1px solid darkred !important;
+}
+
+.gryff-resume-btn:hover {
+	background-color: red !important;
+	color: gold;
+	border: 1px solid red !important;
+}
+
+.gryff-port-inner h5 {
+	/* color: goldenrod; */
+	background: red;
+}
+
+.gryffindor-button-test {
+	background: red;
+	color: gold;
+}
+
+/* ====== RAVENCLAW ======= */
+.ravenclaw-select ul li a::after,
+.ravenclaw-select ul li a::before {
+	background: blue !important;
+}
+
+.raven-logo h3 {
+	color: silver;
+}
+
+.raven-links a {
+	border-color: blue;
+	color: blue;
+}
+
+.raven-links a:hover {
+	background: darkblue;
+	color: silver;
+	border-color: dimgray;
+}
+
+.ravenclaw-section-title h2:after {
+	background: blue;
+}
+
+.raven-filter li.active {
+	background: blue;
+}
+
+.raven-welcome {
+	color: blue;
+}
+
+.raven-con li i {
+	color: blue;
+	border-color: blue;
+}
+
+.raven-con li:before {
+	background: silver;
+}
+
+.raven-resume li {
+	border-left: 5px solid blue;
+}
+
+.raven-resume li:before {
+	background: silver;
+}
+
+.raven-resume-btn {
+	background-color: darkblue !important;
+	color: silver;
+	border: 1px solid darkblue !important;
+}
+
+.raven-resume-btn:hover {
+	background-color: blue !important;
+	color: silver;
+	border: 1px solid blue !important;
+}
+
+.raven-port-inner h5 {
+	color: silver;
+	background: blue;
+}
+
+
 
 /* ===================================
 	13. Media Query
