@@ -72,6 +72,7 @@
 	// Gryffindor
 	$("b").click(function(){
 		if($("b span").hasClass("gryffindor")){
+			$("#about-image").attr("src", "rickygryffindor.jpg")
 			$(".main-menu").removeClass("ravenclaw-select")
 			$(".main-menu").addClass("gryffindor-select")
 			$(".about-section-title").removeClass("ravenclaw-section-title")
@@ -124,6 +125,7 @@
 	// Ravenclaw
 	$("b").click(function(){
 		if($("b span").hasClass("ravenclaw")){
+			$("#about-image").attr("src", "rickyravenclaw.jpg")
 			$(".main-menu").removeClass("gryffindor-select")
 			$(".main-menu").addClass("ravenclaw-select")
 			$(".about-section-title").removeClass("gryffindor-section-title")
@@ -174,6 +176,7 @@
 
 	// Remove
 	$(".return").click(function(){
+		$("#about-image").attr("src", "rickyprofessional.jpg")
 		$(".main-menu").removeClass("gryffindor-select")
 		$(".main-menu").removeClass("ravenclaw-select")
 		$(".about-section-title").removeClass("gryffindor-section-title")

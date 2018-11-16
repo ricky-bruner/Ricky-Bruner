@@ -551,11 +551,15 @@ img{
 .about-img {
 	display: flex;
 	justify-content: flex-end;
+	/* width: 50%; */
 }
 
 .about-img img {
+	display: block;
 	border-radius: 5px;
 	box-shadow: 0 8px 6px -6px black;
+	width: 350px;
+	height: 525px;
 }
 
 code {
