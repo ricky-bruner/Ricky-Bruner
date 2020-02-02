@@ -744,6 +744,11 @@ code {
 	z-index: -1;
 }
 
+.resumes .Claris:after {
+	content: "\f21e";
+	color: lightskyblue;
+}
+
 .resumes .NSS:after {
 	content: "\f121";
 	color: black;
