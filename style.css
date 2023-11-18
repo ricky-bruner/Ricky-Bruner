@@ -747,6 +747,7 @@ code {
 .resumes .Claris:after {
 	content: "\f21e";
 	color: lightskyblue;
+	bottom: 25%;
 }
 
 .resumes .NSS:after {
@@ -780,6 +781,11 @@ code {
 .resumes li:hover:after {
 	left: 15px;
 	bottom: 0%;
+}
+
+.resumes .Claris:hover::after {
+	left: 25px;
+	bottom: 40%;
 }
 
 .resumes .Verizon:hover::after {

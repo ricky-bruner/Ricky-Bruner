@@ -176,25 +176,37 @@
 					</div>
 				</div>
 				<ul class="technology-filter">
-					<li class="filter active" data-filter="*">All</li>
-					<li class="filter" data-filter=".code">Code</li>
+					<li class="filter active" data-filter=".back-end">Server Side</li>
+					<li class="filter" data-filter=".cloud">Cloud</li>
+					<li class="filter" data-filter=".database">Database</li>
+					<li class="filter" data-filter=".ci-cd">CI/CD</li> 
 					<li class="filter" data-filter=".tools">Tools</li>
+					<li class="filter" data-filter=".front-end">Client Side</li>
+					<li class="filter" data-filter=".version-control">Version Control</li>
+					<li class="filter" data-filter=".code">Code</li>
 					<li class="filter" data-filter=".styles">Styles</li> 
-					<li class="filter" data-filter=".front-end">Front-End</li> 
-					<li class="filter" data-filter=".back-end">Back-End</li> 
+					<li class="filter" data-filter="*">All</li>
 				</ul>
 				<div class="technology-container tech-icons">
-					<div class="new-grid-item icon-card tools front-end back-end">
+
+					<!-- version-control -->
+					<div class="new-grid-item icon-card version-control front-end back-end">
 						<img src="img/resumelogos/git.png" alt="Git Logo">
 						<p>Git</p> 
 					</div>
-					<div class="new-grid-item icon-card tools front-end back-end">
-						<img src="img/resumelogos/vscode.png" alt="VS Code Logo">
-						<p>VS Code</p> 
+					<div class="new-grid-item icon-card version-control tools front-end back-end">
+						<img src="img/resumelogos/bitbucketlogo.png" alt="Bitbucket Logo">
+						<p>Bitbucket</p> 
 					</div>
-					<div class="new-grid-item icon-card tools front-end back-end">
+					<div class="new-grid-item icon-card version-control tools front-end back-end">
 						<img src="img/resumelogos/github.png" alt="Github Logo">
 						<p>GitHub</p> 
+					</div>
+
+					<!-- clientside -->
+					<div class="new-grid-item icon-card code front-end">
+						<img src="img/resumelogos/html.png" alt="HTML Logo">
+						<p>HTML</p> 
 					</div>
 					<div class="new-grid-item icon-card code styles front-end">
 						<img src="img/resumelogos/css.png" alt="CSS Logo">
@@ -204,89 +216,115 @@
 						<img src="img/resumelogos/js.png" alt="JS Logo">
 						<p>JavaScript</p> 
 					</div>
-					<div class="new-grid-item icon-card styles front-end">
-						<img src="img/resumelogos/bootstrap.png" alt="Bootstrap Logo">
-						<p>Bootstrap</p> 
-					</div>
-					<div class="new-grid-item icon-card styles front-end">
-						<img src="img/resumelogos/bulma.png" alt="Bulma Logo">
-						<p>Bulma</p> 
-					</div>
-					<div class="new-grid-item icon-card tools front-end">
-						<img src="img/resumelogos/npm.png" alt="NPM Logo">
-						<p>NPM</p> 
-					</div>
-					<div class="new-grid-item icon-card tools front-end">
-						<img src="img/resumelogos/grunt.png" alt="Grunt Logo">
-						<p>Grunt</p> 
-					</div>
-					<div class="new-grid-item icon-card tools code front-end">
-						<img src="img/resumelogos/browserify.png" alt="Browserify Logo">
-						<p>Browserify</p> 
-					</div>
 					<div class="new-grid-item icon-card code front-end">
 						<img src="img/resumelogos/jquery.png" alt="jQuery Logo">
 						<p>jQuery</p> 
 					</div>
 					<div class="new-grid-item icon-card code front-end">
-						<img src="img/resumelogos/react.png" alt="React Logo">
+						<img src="img/resumelogos/reactdarkLogo.png" alt="React Logo">
 						<p>React</p> 
 					</div>
 					<div class="new-grid-item icon-card code front-end">
 						<img src="img/resumelogos/jsx.png" alt="JSX Logo">
 						<p>JSX</p> 
 					</div>
-					<div class="new-grid-item icon-card code tools front-end">
-						<img src="img/resumelogos/webpack.png" alt="Webpack Logo">
-						<p>Webpack</p> 
+					<div class="new-grid-item icon-card code front-end">
+						<img src="img/resumelogos/typescriptLogo.png" alt="TS Logo">
+						<p>TypeScript</p> 
+					</div>
+					<div class="new-grid-item icon-card code styles front-end">
+						<img src="img/resumelogos/bootstrap.png" alt="Bootstrap Logo">
+						<p>Bootstrap</p> 
+					</div>
+					<div class="new-grid-item icon-card code styles front-end">
+						<img src="img/resumelogos/bulma.png" alt="Bulma Logo">
+						<p>Bulma</p> 
 					</div>
 					<div class="new-grid-item icon-card code styles front-end">
 						<img src="img/resumelogos/reactstrap.png" alt="ReactStrap Logo">
 						<p>ReactStrap</p> 
 					</div>
-					<div class="new-grid-item icon-card styles code front-end">
+					<div class="new-grid-item icon-card code styles front-end">
 						<img src="img/resumelogos/bloomer.png" alt="Bloomer Logo">
 						<p>Bloomer</p> 
 					</div>
-					<div class="new-grid-item icon-card styles code front-end">
+					<div class="new-grid-item icon-card code styles front-end">
 						<img src="img/resumelogos/semanticui.png" alt="Semantic UI Logo">
 						<p>Semantic UI</p> 
 					</div>
-					<div class="new-grid-item icon-card styles code front-end">
+					<div class="new-grid-item icon-card code styles front-end">
 						<img src="img/resumelogos/tilt2.png" alt="Tilt Logo" class="tiltjs">
 						<p>Tilt.js</p> 
 					</div>
-					<div class="new-grid-item icon-card styles code front-end">
+					<div class="new-grid-item icon-card code styles front-end">
 						<img src="img/resumelogos/charts.png" alt="Charts Logo">
 						<p>Charts.js</p> 
 					</div>
-					<div class="new-grid-item icon-card tools front-end">
+					<div class="new-grid-item icon-card code tools front-end">
+						<img src="img/resumelogos/npm.png" alt="NPM Logo">
+						<p>NPM</p> 
+					</div>
+					<div class="new-grid-item icon-card code tools front-end">
+						<img src="img/resumelogos/webpack.png" alt="Webpack Logo">
+						<p>Webpack</p> 
+					</div>
+
+					<!-- deprecated -->
+					<!-- <div class="new-grid-item icon-card tools front-end">
+						<img src="img/resumelogos/grunt.png" alt="Grunt Logo">
+						<p>Grunt</p> 
+					</div>
+					<div class="new-grid-item icon-card tools code front-end">
+						<img src="img/resumelogos/browserify.png" alt="Browserify Logo">
+						<p>Browserify</p> 
+					</div> -->
+					
+					<!-- ci/cd -->
+					<div class="new-grid-item icon-card ci-cd">
+						<img src="img/resumelogos/teamCityLogo.png" alt="TeamCity Logo">
+						<p>TeamCity</p> 
+					</div>
+					<div class="new-grid-item icon-card ci-cd">
+						<img src="img/resumelogos/octopusLogo.png" alt="Octopus Logo">
+						<p>Octopus</p> 
+					</div>
+					<div class="new-grid-item icon-card ci-cd cloud">
+						<img src="img/resumelogos/azureLogo.png" alt="Azure Logo">
+						<p>Azure</p> 
+					</div>
+					<div class="new-grid-item icon-card ci-cd">
+						<img src="img/resumelogos/ghPagesLogo.png" alt="GitHub Pages Logo">
+						<p>GitHub Pages</p> 
+					</div>
+					<div class="new-grid-item icon-card ci-cd">
 						<img src="img/resumelogos/heroku.png" alt="Heroku Logo">
 						<p>Heroku</p> 
 					</div>
+					
+					<!-- serverside -->
 					<div class="new-grid-item icon-card code back-end">
 						<img src="img/resumelogos/csharp.png" alt="CSharp Logo">
 						<p>C&num;</p> 
 					</div>
 					<div class="new-grid-item icon-card code back-end">
-						<img src="img/resumelogos/sqlite.png" alt="SQLite Logo">
-						<p>SQLite</p> 
+						<img src="img/resumelogos/dotnetLogo.png" alt=".NET Logo">
+						<p>.NET</p> 
 					</div>
 					<div class="new-grid-item icon-card code back-end">
-						<img src="img/resumelogos/dapper.png" alt="Dapper Logo">
-						<p>Dapper</p> 
-					</div>
-					<div class="new-grid-item icon-card code tools back-end">
-						<img src="img/resumelogos/ssms.png" alt="SQL Server Logo">
-						<p>SQL</p> 
-					</div>
-					<div class="new-grid-item icon-card tools back-end">
-						<img src="img/resumelogos/vstudio.png" alt="Visual Studio Logo">
-						<p>Visual Studio</p> 
+						<img src="img/resumelogos/dotnetframework.png" alt=".NET Framework Logo">
+						<p>.NET Framework</p> 
 					</div>
 					<div class="new-grid-item icon-card code back-end">
 						<img src="img/resumelogos/dotnetcore.png" alt=".NET Core Logo">
 						<p>.NET Core</p> 
+					</div>
+					<div class="new-grid-item icon-card code back-end">
+						<img src="img/resumelogos/dotnetStandardLogo.png" alt=".NET Standard Logo">
+						<p>.NET Standard</p> 
+					</div>
+					<div class="new-grid-item icon-card code back-end">
+						<img src="img/resumelogos/dotnet6Logo.png" alt=".NET 6 Logo">
+						<p>.NET 6</p> 
 					</div>
 					<div class="new-grid-item icon-card code back-end">
 						<img src="img/resumelogos/dotnetmvc.png" alt=".NET MVC Logo">
@@ -301,45 +339,62 @@
 						<p>Identity</p> 
 					</div>
 					<div class="new-grid-item icon-card code back-end">
-						<img src="img/resumelogos/dotnetframework.png" alt=".NET Framework Logo">
-						<p>.NET Framework</p> 
+						<img src="img/resumelogos/nodeJSLogo.png" alt="Node.js Logo">
+						<p>Node.js</p> 
 					</div>
-					<div class="new-grid-item icon-card tools code back-end">
+					
+					<!-- cloud -->
+					<div class="new-grid-item icon-card cloud code back-end">
 						<img src="img/resumelogos/awslogo.png" alt="AWS Logo">
 						<p>AWS</p> 
 					</div>
-					<div class="new-grid-item icon-card tools code back-end">
-						<img src="img/resumelogos/awssqslogo.png" alt="ASWSQS Logo">
+					<div class="new-grid-item icon-card cloud code back-end">
+						<img src="img/resumelogos/aswS3Logo.png" alt="AWS S3 Logo">
+						<p>AWS S3</p> 
+					</div>
+					<div class="new-grid-item icon-card cloud code back-end">
+						<img src="img/resumelogos/awssqslogo.png" alt="ASW SQS Logo">
 						<p>AWS SQS</p> 
 					</div>
-					<div class="new-grid-item icon-card tools code back-end">
+					<div class="new-grid-item icon-card cloud code back-end">
 						<img src="img/resumelogos/awslambdalogo.png" alt="AWSLambda Logo">
 						<p>AWS Lambda</p> 
 					</div>
-					<div class="new-grid-item icon-card tools front-end back-end">
-						<img src="img/resumelogos/bitbucketlogo.png" alt="Bitbucket Logo">
-						<p>Bitbucket</p> 
+					<div class="new-grid-item icon-card cloud code back-end">
+						<img src="img/resumelogos/awsstepfunctionLogo.png" alt="AWS Step Functions Logo">
+						<p>AWS<br>Step Functions</p> 
 					</div>
-					<div class="new-grid-item icon-card tools front-end back-end">
-						<img src="img/resumelogos/jiralogo.png" alt="Jira Logo">
-						<p>Jira</p> 
+					<div class="new-grid-item icon-card cloud code back-end">
+						<img src="img/resumelogos/awsAthenaLogo.png" alt="AWS Athena Logo">
+						<p>AWS Athena</p> 
 					</div>
-					<div class="new-grid-item icon-card tools front-end back-end">
-						<img src="img/resumelogos/sourcetree.jpg" alt="Sourcetree Logo">
-						<p>Source Tree</p> 
-					</div>
-					<div class="new-grid-item icon-card tools front-end back-end">
-						<img src="img/resumelogos/confluencelogo2.png" alt="Confluence Logo">
-						<p>Confluence</p> 
-					</div>
-					<div class="new-grid-item icon-card tools back-end">
-						<img src="img/resumelogos/studio3t.png" alt="Studio3t Logo">
-						<p>Studio3t</p> 
-					</div>
-					<div class="new-grid-item icon-card code back-end">
+					
+					<!-- database -->
+					<div class="new-grid-item icon-card database code back-end">
 						<img src="img/resumelogos/mongodb.png" alt="mongodb Logo">
 						<p>MongoDB</p> 
 					</div>
+					<div class="new-grid-item icon-card database code back-end">
+						<img src="img/resumelogos/mongoAggregateLogo.png" alt="MongoDB Aggregate Logo">
+						<p>MongoDB<br>Aggregate</p> 
+					</div>
+					<div class="new-grid-item icon-card database code back-end">
+						<img src="img/resumelogos/ssms.png" alt="SQL Server Logo">
+						<p>SQL</p> 
+					</div>
+					<div class="new-grid-item icon-card database code back-end">
+						<img src="img/resumelogos/mysqlLogo.png" alt="MySQL Logo">
+						<p>MySQL</p> 
+					</div><div class="new-grid-item icon-card database code back-end">
+						<img src="img/resumelogos/sqlite.png" alt="SQLite Logo">
+						<p>SQLite</p> 
+					</div>
+					<div class="new-grid-item icon-card database code back-end">
+						<img src="img/resumelogos/dapper.png" alt="Dapper Logo">
+						<p>Dapper</p> 
+					</div>
+
+					<!-- tools -->
 					<div class="new-grid-item icon-card tools back-end">
 						<img src="img/resumelogos/dbforgelogo.png" alt="dbForge Logo">
 						<p>dbForge</p> 
@@ -347,6 +402,30 @@
 					<div class="new-grid-item icon-card tools back-end">
 						<img src="img/resumelogos/rdmlogo.png" alt="rdm Logo">
 						<p>RDM</p> 
+					</div>
+					<div class="new-grid-item icon-card tools front-end back-end">
+						<img src="img/resumelogos/jiralogo.png" alt="Jira Logo">
+						<p>Jira</p> 
+					</div>
+					<div class="new-grid-item icon-card tools front-end back-end">
+						<img src="img/resumelogos/confluencelogo2.png" alt="Confluence Logo">
+						<p>Confluence</p> 
+					</div>
+					<div class="new-grid-item icon-card tools front-end back-end">
+						<img src="img/resumelogos/sourcetree.jpg" alt="Sourcetree Logo">
+						<p>Source Tree</p> 
+					</div>
+					<div class="new-grid-item icon-card tools back-end">
+						<img src="img/resumelogos/studio3t.png" alt="Studio3t Logo">
+						<p>Studio3t</p> 
+					</div>
+					<div class="new-grid-item icon-card tools back-end">
+						<img src="img/resumelogos/vstudio.png" alt="Visual Studio Logo">
+						<p>Visual Studio</p> 
+					</div>
+					<div class="new-grid-item icon-card tools front-end back-end">
+						<img src="img/resumelogos/vscode.png" alt="VS Code Logo">
+						<p>VS Code</p> 
 					</div>
 				</div>
 			</div>
@@ -373,11 +452,12 @@
 						<div class="row">
 							<div class="col-md-3 resume-date">
 								<h4>Claris Health</h4>
-								<h5>2019-2020</h5>
+								<h5>2019-2023</h5>
 							</div>
 							<div class="col-md-9 resume-text">
-								<h2>BACK-END ETL DEVELOPER</h2>
-								<p>Back-End software development on an ETL team building applications and delivering solutions to prop up and support our font-end web application called Pareo. Work includes integrating file exchanges for numerous clients, building processes to change and manipulate data, and automating file delivery and data loading. Occasionally engaged as a Business Analyst to accelerate client implementation during crunch times and to support my team and drive results. Worked in Scrum methodology and switched to Kanban style workflow. Tech Stack includes Angular for the front-end, and C&num;/.Net Framework/mongoDB for the back-end.</p>
+								<h2>SENIOR/LEAD SOFTWARE DEVELOPER</h2>
+								<p>As the Lead Software Developer for the Data team at Claris, I played a pivotal role in the evolution and success of their flagship web application, Pareo. I spearheaded the server-side development, orchestrating complex data integrations and automating critical processes that served as the backbone for seamless front-end functionalities. My tenure was marked by a series of strategic solutions that facilitated file exchanges for a diverse portfolio of clients, improved data manipulation, and streamlined data loading, significantly enhancing system efficiency and client satisfaction.</p>
+								<p>In my leadership role, I was instrumental in fostering a culture of excellence within my team. I provided mentorship and technical coaching, ensuring our work adhered to the highest standards, particularly emphasizing SOLID principles during Code Reviews. My adept management across both Scrum and Kanban methodologies kept us agile and responsive to the ever-changing demands of the product. The technological landscape I navigated was vast, with my hands shaping and fortifying the robust C#/.NET and MongoDB back-end architecture, making a lasting impact on the product and the company.</p>
 							</div>
 						</div>
 					</li>
@@ -467,6 +547,28 @@
 			    
 			    <!-- Portfolio Grid Start -->
 				<div class="row portfolio-container">
+					
+					<div class="col-sm-4 col-xm-12 grid-item react individual">
+						<a href="#work-id1" class="work-item">
+							<img src="img/transfigureioprojectlogo.png" class="img-responsive" alt="">
+							<div class="work-inner">
+								<h3>transfigure.io</h3>
+								<h5>React / Passion Project</h5>
+							</div>
+						</a>
+						<div id="work-id1" class="mfp-hide work-popup">
+		                  	<img src="img/transfigureioinsideview.png" alt="">
+		                  	<div class="work-popup-content">
+								<h3>transfigure.io</h3>
+								<div class="project-links pantry-links">
+									<a href="http://www.transfigure.io" target="_blank">View Site!</a>
+									<a href="https://github.com/ricky-bruner/transfigure.io" target="_blank">View the Code</a>
+								</div>
+								<p>Transfigure.io is my canvas where creativity meets CSS, inspired by the ingenuity of Muhammad Irshad on his Online Tutorials YouTube channel. This webapp is full of slick UI elements that can be customized, and the code is provided right to the user. It isn’t just a showcase; it's an invitation to experiment. I encourage you to take these snippets of code, tweak them, transform them, and let them inspire your own designs. Whether you’re a student seeking to understand the nuances of CSS, or a developer in need of a splash of creativity for your website, Transfigure.io is for you. Dive into the diagrams below to discover how you can integrate these styles into your work and elevate your web presence with a touch of Transfigure magic.</p>
+								<p>transfigure.io is built using react and its own custom styles, and is very much still a work in progress - but functioning and deployed using github pages!</p>
+			                </div>
+		              	</div> 
+					</div>
 
 					<div class="col-sm-4 col-xm-12 grid-item react individual">
 						<a href="#work-id1" class="work-item">
@@ -481,11 +583,11 @@
 		                  	<div class="work-popup-content">
 								<h3>Pantry Perfect</h3>
 								<div class="project-links pantry-links">
-									<a href="http://pantry-perfect.herokuapp.com" target="_blank">View Site!</a>
+									<!-- <a href="http://pantry-perfect.herokuapp.com" target="_blank">View Site!</a> -->
 									<a href="https://github.com/ricky-bruner/Pantry-Perfect-Midstone" target="_blank">View the Code</a>
 								</div>
 								<p>An application that allows a user to track the quantity of any groceries they choose, create recipes they commonly cook, link the ingredients to their tracked items, and build a grocery list on the fly.</p>
-								<p>Built in React.js and utilizing a heavily edited Semantic-UI for React style library throughout, the application also makes use of Charts.js for React and Tilt.js for React for statistics. User data is populated from a JSON file hosted off of a JSON Server. Both the application and the server are hosted on Heroku.</p>
+								<p>Built in React.js and utilizing a heavily edited Semantic-UI for React style library throughout, the application also makes use of Charts.js for React and Tilt.js for React for statistics. User data is populated from a JSON file hosted off of a JSON Server. Both the application and the server were hosted on Heroku. These have since expired, and a new deployment on a different hosting platform is in the works.</p>
 			                </div>
 		              	</div> 
 					</div>
@@ -503,11 +605,11 @@
 		                  	<div class="work-popup-content">
 								<h3>Use By</h3>
 								<div class="project-links">
-									<a href="http://use-by.herokuapp.com" target="_blank">View Site!</a>
-									<a href="https://github.com/FoodSaver/use-by-app" target="_blank">View the Code</a>
+									<!-- <a href="http://use-by.herokuapp.com" target="_blank">View Site!</a>
+									<a href="https://github.com/FoodSaver/use-by-app" target="_blank">View the Code</a> -->
 								</div>
-								<p>Use By is a collaborative project that was born out of the Nash Hack Weekathon! Originally pitched by Angie Renfro, I was given the opportunity to be the team lead for the project with Angie at the helm of UI/UX control. I lead the team through the 48 hour build window to deliver a MVP prototype for an application that allows a user to track the expiration dates of common foods and see their money waste when food gets thrown out.</p>
-								<p>Use By is built in React.js and utilizes basic CSS for media query and Semantic UI for React. A simple JSON file with a flat datastructure is hosted off of a JSON server. Both Use By and its server are deployed to Heroku.</p>
+								<p>Use By is a collaborative project that was born out of the Nash Hack Weekathon! Originally pitched by Angie Renfro, I was given the opportunity to be the team lead for the project with Angie at the helm of UI/UX control. I led the team through the 48 hour build window to deliver a MVP prototype for an application that allows a user to track the expiration dates of common foods and see their money waste when food gets thrown out.</p>
+								<p>Use By is built in React.js and utilizes basic CSS for media query and Semantic UI for React. A simple JSON file with a flat datastructure is hosted off of a JSON server. Use-By has since migrated into new ownership, as the original idea owner for it has started a company to take this prototype to product. The deployed site and its code are both gone with the migration.</p>
 			                </div>
 		              	</div> 
 					</div>

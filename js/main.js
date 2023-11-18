@@ -259,7 +259,8 @@
 	     grid_container.imagesLoaded(function () {
 	        grid_container.isotope({
 	            itemSelector: '.new-grid-item',
-	       		layoutMode: 'fitRows'
+	       		layoutMode: 'fitRows',
+				   filter: '.back-end'
 	        });
 	    });
 
